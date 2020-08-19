@@ -1,0 +1,546 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+     perspective:1200px;
+    
+}
+.contener{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(47, 52, 59, 0.85);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.table{
+    height: 100%;
+    display: table;
+}
+
+.text-center{
+    text-align: center;
+}
+.font-fami{
+    font-family: Open Sans;
+}
+.upper{
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main-color{
+    color: #f7600e;
+}
+.main-backgurond{
+    background-color: #f7600e;
+}
+
+hr{
+    margin: 80px 0px;
+    opacity: 0.5; 
+}
+.haeden{
+    display: none;
+}
+button{
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 12px 0px;
+    width: 180px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 7px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+.spinner{
+    position: absolute;
+    left: 562px;
+    bottom: 34px;
+    display: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 3px solid #00000021;
+    border-left: 3px solid #f7600e;
+    animation: spinner 1.5s linear infinite;
+}
+@Keyframes spinner{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg) 
+    }
+}
+
+.clearfix{
+    clear: both;
+}
+
+/*------------ start Header -------*/
+.header{
+    
+    background-image: url(../Img/macbook-925614.jpg);
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.header .overlay{
+    background-color: rgba(47, 52, 59, 0.81);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.header .navbar{
+    overflow: hidden;
+    padding: 30px 0;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+.header .navbar .links{
+    float: right;
+}
+.navbar .links i{
+    font-size: 19px;
+    padding: 5px;
+    
+}
+
+.header .intro h1{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.header .intro p{
+    margin: 15px 0px 40px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #ffffffbf;
+}
+.header .button{
+    margin-top: 30px;
+}
+.header .button button{
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px 0px;
+    width: 180px;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 7px;
+    background: none;
+    border: 0.5px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+    
+
+.header .button button:hover{
+    background: #f7600e ;
+    border: none;
+}
+   
+.header .arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.header .arrow i{
+    line-height: 33px;
+    border: 1.2px solid #cccccc8f;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/*------------ End Header -------*/
+/*------------ start our-services -------*/
+.our-services{
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.our-services .services > div{
+    float: left;
+    width: 21%;
+    margin: 2%;
+    line-height: 1.7;
+    margin-top: 55px;
+}
+.our-services .services h4{
+    color: #000;
+     font-weight: 430;
+}
+.our-services .services p{
+    font-size: 13px;
+    font-weight: normal;
+}
+.our-services .services span{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #00000026;
+    padding: 2.9%;
+    border-radius: 100%;
+    position: absolute;
+    top: -35px;
+    margin-left: -5%;
+}
+/*------------ End our-services -------*/
+/*------------ start subscrib -------*/
+.subscrib{
+    width: 100%;
+    height: 200px;
+    margin: 50px 0;
+    background-image: url(../Img/tablet-791051.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.subscrib .overlay{
+    background-color: rgba(47, 52, 59, 0.85);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.subscrib .inp{
+    padding: 77px;
+}
+.subscrib .subsc{
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 12px 0px;
+    width: 180px;
+    border: none;
+    margin: 0px 10px;
+    border-radius: 7px;
+    background: #f7600e;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.subscrib input{
+    width: 500px;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: none;
+}
+/*------------ End subscrib -------*/
+/*------------ start ourword -------*/
+.ourword{
+    margin: 75px 0;
+}
+.ourword h1{
+    font-weight: 500;
+}
+.ourword p{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.ourword .item-box {
+    width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+}
+.ourword .item-box .item img{
+    width: 100%;
+   border-radius: 10px;
+}
+.ourword .item-box .item{
+    position: relative;
+    float: left;
+    width: 31%;
+    margin: 1%;
+    height: 247px;
+    
+}
+.ourword .item-box .item .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, 0.8);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 10px;
+    display: none;
+}
+.ourword .item-box .item .over p{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.ourword .item-box .item .over button{
+    background-color: #fff;
+    color:#f7600e;
+    border: none;
+}
+.ourword .item-box .item:hover .over{
+    display: block;
+    
+}
+.ourword button{
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 12px 0px;
+    width: 180px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 7px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-weight: 500;
+}
+/*------------ End ourword -------*/
+/*------------ start avatar -------*/
+.avatar{
+    height: 400px;
+    background-image: url(../Img/woman-690036.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0;
+}
+.bx-wrapper{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 5px none;
+    background: none;
+    text-align: center;
+    transition: 1s;
+    
+    
+}
+.bx-wrapper img{
+    display: initial;
+}
+.bx-viewport{
+    height: 100% !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 5px none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    
+}
+.avatar .slider{
+    width: 100%;
+    height: 100%;
+    padding: 100px;   
+}
+.avatar .slider p{
+    line-height: 2;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+}
+
+.avatar .slider li {
+    text-align: center;
+}
+
+.avatar .slider img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+ .avatar .fa{
+     cursor: pointer;
+     color: #ccc;
+     transition: 1s;
+}
+.avatar .fa:hover{
+    color: #f7600e;
+}
+
+
+.ourteam{
+    margin: 75px 0;
+    transition: all 1s ease-in-out;
+}
+.ourteam h1{
+    font-weight: 500;
+}
+.ourteam p{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.teams{
+    margin: 50px 0;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+.teams .index{
+    float: left;
+    width: 22%;
+    margin: 1.5%;
+    color: #888;
+   
+}
+
+.teams .index .imgs{
+    height: 280px;
+   
+}
+.teams .index img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: gray;
+    filter: grayscale(1);
+    transition: all 0.5s ease-in-out;
+}
+.teams .index h3{
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 10px;
+    
+    
+}
+.teams .index i{
+    margin: 7px;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    color: #fff;
+    background-color: #888;
+    border-radius: 50%;
+    transition: all 0.7s ease-in-out;
+}
+.teams .index p{
+    opacity: 0.9;
+}
+.teams .index:hover img{
+    filter: none;
+    filter: grayscale(0);
+    border-bottom: 3px solid #f7600e;
+    transform: translateY(-15px)
+  
+}
+.teams .index:hover h3{
+    color: #333;
+}
+.teams .index:hover .fa-facebook{
+    background-color: #3b5998;
+}
+.teams .index:hover .fa-twitter{
+    background-color: #55acee;
+}
+.teams .index:hover .fa-google-plus{
+    background-color: #dc4e41;
+}
+
+.say {
+    margin-top: 100px;
+    background-image: url(../Img/city-937541.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.say h1{
+    font-weight: 500;
+    padding-top: 100px;
+}
+.say p{
+    font-size: 14px;
+    line-height: 1.7;
+}
+.say .form{
+    padding-bottom: 100px;
+}
+.say .form input{
+    margin: 100px 20px 20px 0;
+    border: none;
+    padding: 10px 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+.form textarea{
+    width: 730px;
+    height: 300px;
+    margin: 10px 20px 10px 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.form button{
+    color: #fff;
+    border: 0.5px solid #eee;
+    font-weight: normal;
+    transition: all 0.5s ease-in-out;
+}
+.form button:hover{
+    background-color: #f7600e;
+    border: none;
+}
+.say .form .infu{
+    overflow: hidden;
+    width: 62%;
+    margin: auto;
+    
+}
+.say .form .infu button{
+    float: left;
+}
+.say .form .infu span{
+    float: right;
+}
+.sochil i{
+    margin: 4px;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.7s ease-in-out;
+}
+.fa-facebook{ background-color: #3b5998;}
+.fa-twitter{background-color: #55acee;}
+.fa-google-plus{background-color: #dc4e41;}
+.futter{
+    background-color: #3b434c;
+    padding: 30px 0;
+    border-top: 1px solid #555;
+}
+.futter .end{
+    overflow: hidden;
+}
+.futter .end span:first-of-type{
+    float: left;
+    color: #d6d6d6;
+    font-size: 12px;
+}
+.futter .end span:last-of-type{
+    color: #d6d6d6;
+    float: right;
+     font-size: 12px;
+}
+.futter .end .upper span{
+    color:#f7600e;
+}
